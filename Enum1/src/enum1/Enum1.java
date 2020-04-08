@@ -11,7 +11,10 @@ package enum1;
  */
 public class Enum1 {
 
-    enum Size {SMALL, MEDIUM, LARGE};
+    enum Size {
+        SMALL, 
+        MEDIUM, 
+        LARGE};
     
     public static void main(String[] args) {        
         Size size;        

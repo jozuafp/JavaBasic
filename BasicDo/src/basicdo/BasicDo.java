@@ -11,9 +11,6 @@ package basicdo;
  */
 public class BasicDo {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         int counter = 1;
         do
@@ -23,4 +20,5 @@ public class BasicDo {
         } while (counter <= 100);
         System.out.println("Counter = " + counter);
     }
+    
 }

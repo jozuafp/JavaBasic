@@ -8,6 +8,7 @@ public class InsertionSort {
         int[] nomor = new int[20];
         int menu = 0, z = 0, temp;
         Scanner InputNum = new Scanner(System.in);
+        
         while (menu != 4) {
             System.out.print("1.Input\n2.view\n3.Sort\n4.Exit\nPilihan: ");
             menu = InputNum.nextInt();
@@ -66,9 +67,6 @@ public class InsertionSort {
                     System.out.println("Salah");
                     System.out.println("");
             }
-
         }
-
     }
-
 }

@@ -67,6 +67,9 @@ public class InsertionSort {
                     System.out.println("Salah");
                     System.out.println("");
             }
+            
         }
+        
     }
+    
 }
